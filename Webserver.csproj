@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="json dosya okuma ve 2li sistemden 10luk sayıya cevirme">
+      <HintPath>..\Github Projeleri\dto datagrid\bin\Debug\json dosya okuma ve 2li sistemden 10luk sayıya cevirme.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
