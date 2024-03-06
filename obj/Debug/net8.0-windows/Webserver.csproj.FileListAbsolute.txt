@@ -21,3 +21,20 @@ C:\Users\ezelc\Desktop\Webserver\bin\Debug\net8.0-windows\json dosya okuma ve 2l
 C:\Users\ezelc\Desktop\Webserver\bin\Debug\net8.0-windows\Newtonsoft.Json.xml
 C:\Users\ezelc\Desktop\Webserver\obj\Debug\net8.0-windows\Webserver.csproj.AssemblyReference.cache
 C:\Users\ezelc\Desktop\Webserver\obj\Debug\net8.0-windows\Webserver.csproj.Up2Date
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webserver.exe
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webserver.deps.json
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webserver.runtimeconfig.json
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webserver.dll
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webserver.pdb
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.Form1.resources
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.csproj.GenerateResource.cache
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.AssemblyInfoInputs.cache
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.AssemblyInfo.cs
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.csproj.CoreCompileInputs.cache
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.sourcelink.json
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.dll
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\refint\Webserver.dll
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.pdb
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.genruntimeconfig.cache
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\ref\Webserver.dll

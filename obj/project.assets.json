@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ezelc\\Desktop\\Webserver\\Webserver.csproj",
+      "projectUniqueName": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\Webserver.csproj",
       "projectName": "Webserver",
-      "projectPath": "C:\\Users\\ezelc\\Desktop\\Webserver\\Webserver.csproj",
+      "projectPath": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\Webserver.csproj",
       "packagesPath": "C:\\Users\\ezelc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ezelc\\Desktop\\Webserver\\obj\\",
+      "outputPath": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ezelc\\AppData\\Roaming\\NuGet\\NuGet.Config",

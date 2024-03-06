@@ -24,7 +24,7 @@ namespace Webserver
                 //istenilen veriyi döngü ile çek
                 foreach (var i in serverRootRespons.data)
                 {
-                    dataGridView1.Rows.Add(i.id.ToString());
+                    dataGridView1.Rows.Add(i.id,i.webUserID,i.name,i.authType,i.email,i.password,i.readOnlyAccess,i.readWriteAccess,i.isActive);
                 }
 
             }
@@ -38,8 +38,9 @@ namespace Webserver
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             int a = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            string b = dataGridView1.CurrentRow.Cells[1].Value.ToString();
             //string b = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            MessageBox.Show(a.ToString());
+            MessageBox.Show(a.ToString() + "----" + b);
         }
     }
 }
