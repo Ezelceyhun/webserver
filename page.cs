@@ -1,19 +1,20 @@
 using System.Text.Json;
-
+using System.Windows.Forms;
 namespace Webserver
 {
-    public partial class Form1 : Form
+    public partial class page : Form
     {
-        public Form1()
+        public page()
         {
             InitializeComponent();
         }
+
         ServerRootRespons serverRootRespons = new ServerRootRespons();
         private async void Form1_Load(object sender, EventArgs e)
         {
             //ServerRootRespons class'ý çaðýrma          
             var client = new HttpClient();
-            client.BaseAddress = new Uri("https://9fa4da70-7dca-4859-be70-bddd4820b8c3.mock.pstmn.io/");
+            client.BaseAddress = new Uri("https://457490d5-321d-438d-b2cb-d6f0f1c98403.mock.pstmn.io/");
             HttpResponseMessage data = await client.GetAsync("api/webuser");
             string result = await data.Content.ReadAsStringAsync();
 
@@ -26,7 +27,7 @@ namespace Webserver
                 {
                     dataGridView1.Rows.Add(i.id,i.webUserID,i.name,i.authType,i.email,i.password,i.readOnlyAccess,i.readWriteAccess,i.isActive);
                 }
-
+                
             }
         }
 
@@ -35,12 +36,18 @@ namespace Webserver
 
         }
 
+        veriler ver = new veriler();
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            int a = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value.ToString());
-            string b = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            //string b = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            MessageBox.Show(a.ToString() + "----" + b);
+            
+             ver.read = Convert.ToInt32(dataGridView1.CurrentRow.Cells[6].Value.ToString());
+             ver.write = Convert.ToInt32(dataGridView1.CurrentRow.Cells[7].Value.ToString());
+            
+            MessageBox.Show("read= " + ver.read+  " write= " + ver.write.ToString());
+
+            UserForm UserFormGecis = new UserForm();
+            
+            UserFormGecis.Show();           
         }
     }
 }

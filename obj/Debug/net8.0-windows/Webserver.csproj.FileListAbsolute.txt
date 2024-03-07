@@ -26,7 +26,6 @@ C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webse
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webserver.runtimeconfig.json
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webserver.dll
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Webserver.pdb
-C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.Form1.resources
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.csproj.GenerateResource.cache
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.AssemblyInfoInputs.cache
@@ -38,3 +37,8 @@ C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\refin
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.pdb
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.genruntimeconfig.cache
 C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\ref\Webserver.dll
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.page.resources
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.csproj.AssemblyReference.cache
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.UserForm.resources
+C:\Users\ezelc\Desktop\Github Projeleri\Webserver\obj\Debug\net8.0-windows\Webserver.csproj.Up2Date

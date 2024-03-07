@@ -9,9 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="json dosya okuma ve 2li sistemden 10luk sayıya cevirme">
-      <HintPath>..\Github Projeleri\dto datagrid\bin\Debug\json dosya okuma ve 2li sistemden 10luk sayıya cevirme.exe</HintPath>
-    </Reference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

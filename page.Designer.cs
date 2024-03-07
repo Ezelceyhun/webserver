@@ -1,6 +1,6 @@
 ﻿namespace Webserver
 {
-    partial class Form1
+    partial class page
     {
         /// <summary>
         ///  Required designer variable.
