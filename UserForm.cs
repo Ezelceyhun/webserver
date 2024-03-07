@@ -70,16 +70,12 @@ namespace Webserver
             textBox5.Text = yazikalan.ToString();
             //sayı ters çevir
             string cevir = "";
+            
             for (int a = 0; a < textBox5.Text.Length; a++)
             {
                 cevir = textBox5.Text.Substring(a, 1) + cevir;
             }
-            textBox5.Text = cevir.PadLeft(32, '0');
-            cevir = "";
-            for (int a = 0; a < textBox5.Text.Length; a++)
-            {
-                cevir = textBox5.Text.Substring(a, 1) + cevir;
-            }
+            //binary çevirisini oku 32'den çıkartıp kalan sayı kadar sol tarafa 0 ekle
             string yeni_cevir = cevir;
             foreach (int isim in basamak)
             {
@@ -130,6 +126,7 @@ namespace Webserver
             {
                 yer2 = yeni_cevir.ToUpper().IndexOf("1".ToUpper(), yer2 + 1);
 
+                   
                 if (yer2 < 0)
                 {
                     break;

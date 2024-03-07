@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|c:\\users\\ezelc\\desktop\\github projeleri\\webserver\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|solutionrelative:userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|c:\\users\\ezelc\\desktop\\github projeleri\\webserver\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|solutionrelative:page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|solutionrelative:page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D991E57-3639-46D0-98DF-0F3F00418E8B}|Webserver.csproj|solutionrelative:page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "page.cs",
               "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\page.cs",
               "RelativeDocumentMoniker": "page.cs",
               "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\page.cs",
               "RelativeToolTip": "page.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAsAAABGAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T11:06:42.277Z",
               "IsPinned": true,
@@ -50,7 +50,7 @@
               "RelativeDocumentMoniker": "UserForm.cs",
               "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\UserForm.cs",
               "RelativeToolTip": "UserForm.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAIwIoAAAAyAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwE0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T06:31:52.613Z",
               "IsPinned": true,
@@ -58,18 +58,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "page.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\page.cs",
               "RelativeDocumentMoniker": "page.cs",
               "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\page.cs [Tasar\u0131m]",
               "RelativeToolTip": "page.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:15:05.333Z"
+              "WhenOpened": "2024-03-07T06:15:05.333Z",
+              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserForm.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\UserForm.cs",
               "RelativeDocumentMoniker": "UserForm.cs",
