@@ -75,7 +75,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(567, 410);
+            dataGridView1.Size = new Size(579, 410);
             dataGridView1.TabIndex = 0;
             // 
             // formId

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Webserver
 {
-    internal class veriler
+    internal class Veriler
     {
         public int write;
         public int read;

@@ -36,18 +36,21 @@ namespace Webserver
 
         }
 
-        veriler ver = new veriler();
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            
-             ver.read = Convert.ToInt32(dataGridView1.CurrentRow.Cells[6].Value.ToString());
-             ver.write = Convert.ToInt32(dataGridView1.CurrentRow.Cells[7].Value.ToString());
-            
-            MessageBox.Show("read= " + ver.read+  " write= " + ver.write.ToString());
-
-            UserForm UserFormGecis = new UserForm();
-            
-            UserFormGecis.Show();           
+            if(dataGridView1.SelectedCells.Count > 0)
+            {
+                int index = dataGridView1.SelectedCells[0].RowIndex;               
+                DataGridViewRow SelectedRows = dataGridView1.Rows[index];             
+                int read = Convert.ToInt32(SelectedRows.Cells["readOnlyAccess"].Value);
+                int write = Convert.ToInt32(SelectedRows.Cells["readWriteAccess"].Value);
+                UserForm userForm = new UserForm(read,write);
+                userForm.Show();
+            }
+            else
+            {
+                MessageBox.Show("veri sec");
+            }          
         }
     }
 }

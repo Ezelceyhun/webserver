@@ -15,9 +15,14 @@ namespace Webserver
 {
     public partial class UserForm : Form
     {
-        public UserForm()
+        int gelen_read,gelen_write;
+        int yer = -1;
+        int yer2 = -1;
+        public UserForm(int read, int write)
         {
             InitializeComponent();
+            this.gelen_read = read;
+            this.gelen_write = write;
         }
         public class Item
         {
@@ -25,15 +30,12 @@ namespace Webserver
             public string form_adi;
             public int yazma_yetkisi;
             public int okuma_yetkisi;
-        }
-        veriler al = new veriler();
-        
+        }       
         private void UserForm_Load(object sender, EventArgs e)
         {
-            int read = al.read;
-            int write = al.write;
-            label19.Text = read.ToString();
-            label16.Text = write.ToString();
+            //int write = al.write;
+            label19.Text = gelen_read.ToString();
+            label16.Text = gelen_write.ToString();
             label7.Hide();
             //debug klasörüne istenilen dosya eklenir
             string path = Application.StartupPath.ToString() + "\\Kitap1.json";
@@ -48,15 +50,16 @@ namespace Webserver
             {
                 dataGridView1.Rows.Add(item.form_id, item.form_adi, false, false);
             }          
-            read_hesap();
+            
             write_hesap();
+            read_hesap();
         }
         void write_hesap()
         {
             List<int> basamak = new List<int>();
             int kalan = 0;
             string yazikalan = "";
-            int sayi = Convert.ToInt32(al.write);
+            int sayi = Convert.ToInt32(gelen_write);
             while (sayi != 0)
             {
                 kalan = sayi % 2;
@@ -84,7 +87,6 @@ namespace Webserver
 
                 if (yer < 0)
                 {
-                    MessageBox.Show("Bitti.");
                     break;
                 }
                 else
@@ -102,7 +104,7 @@ namespace Webserver
             List<int> basamak = new List<int>();
             int kalan = 0;
             string yazikalan = "";
-            int sayi = Convert.ToInt32(al.read);
+            int sayi = Convert.ToInt32(gelen_read);
             while (sayi != 0)
             {
                 kalan = sayi % 2;
@@ -126,18 +128,17 @@ namespace Webserver
             string yeni_cevir = cevir;
             foreach (int isim in basamak)
             {
-                yer = yeni_cevir.ToUpper().IndexOf("1".ToUpper(), yer + 1);
+                yer2 = yeni_cevir.ToUpper().IndexOf("1".ToUpper(), yer2 + 1);
 
-                if (yer < 0)
+                if (yer2 < 0)
                 {
-                    MessageBox.Show("Bitti.");
                     break;
                 }
                 else
                 {
                     textBox4.SelectionStart = yer;
                     textBox4.SelectionLength = "1".Length;
-                    DataGridViewCheckBoxCell never = dataGridView1.Rows[yer].Cells[2] as DataGridViewCheckBoxCell;
+                    DataGridViewCheckBoxCell never = dataGridView1.Rows[yer2].Cells[2] as DataGridViewCheckBoxCell;
                     bool isNeverChecked = (bool)never.EditedFormattedValue;
                     never.Value = "true";
                 }
@@ -251,7 +252,7 @@ namespace Webserver
             //tabloyu yenile
             dataGridView1.Refresh();
         }
-        int yer = -1;
+        
         private void button3_Click(object sender, EventArgs e)
         {
             //sayı decimal şeklinde girilicek binary dönüştürülüp kontrol edilicek
