@@ -136,7 +136,7 @@ namespace Webserver
                 }
                 else
                 {
-                    textBox4.SelectionStart = yer;
+                    textBox4.SelectionStart = yer2;
                     textBox4.SelectionLength = "1".Length;
                     DataGridViewCheckBoxCell never = dataGridView1.Rows[yer2].Cells[2] as DataGridViewCheckBoxCell;
                     bool isNeverChecked = (bool)never.EditedFormattedValue;
