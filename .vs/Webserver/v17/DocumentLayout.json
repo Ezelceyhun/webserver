@@ -39,8 +39,7 @@
               "ViewState": "AQIAACQAAAAAAAAAAAAYwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T11:06:42.277Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,7 +49,7 @@
               "RelativeDocumentMoniker": "UserForm.cs",
               "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\UserForm.cs",
               "RelativeToolTip": "UserForm.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAkwE0AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T06:31:52.613Z",
               "IsPinned": true,
@@ -65,8 +64,7 @@
               "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\page.cs [Tasar\u0131m]",
               "RelativeToolTip": "page.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:15:05.333Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-03-07T06:15:05.333Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\Webserver\\UserForm.cs [Tasar\u0131m]",
               "RelativeToolTip": "UserForm.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T07:15:06.377Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2024-03-07T07:15:06.377Z"
             }
           ]
         }

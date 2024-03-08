@@ -66,11 +66,18 @@ namespace Webserver
                 sayi = sayi / 2;
                 yazikalan = kalan.ToString() + yazikalan;
                 basamak.Add(kalan);
+                
+            }          
+            int bas = basamak.Count;
+            int son = 32 - bas;
+            for(int i = 0;i<son;i++)
+            {
+                textBox5.Text += "0";
+                
             }
-            textBox5.Text = yazikalan.ToString();
+            textBox5.Text += yazikalan.ToString();
             //sayı ters çevir
             string cevir = "";
-            
             for (int a = 0; a < textBox5.Text.Length; a++)
             {
                 cevir = textBox5.Text.Substring(a, 1) + cevir;
@@ -107,16 +114,17 @@ namespace Webserver
                 sayi = sayi / 2;
                 yazikalan = kalan.ToString() + yazikalan;
                 basamak.Add(kalan);
+
             }
-            textBox4.Text = yazikalan.ToString();
-            //sayı ters çevir
-            string cevir = "";
-            for (int a = 0; a < textBox4.Text.Length; a++)
+            int bas = basamak.Count;
+            int son = 32 - bas;
+            for (int i = 0; i < son; i++)
             {
-                cevir = textBox4.Text.Substring(a, 1) + cevir;
+                textBox4.Text += "0";
+
             }
-            textBox4.Text = cevir.PadLeft(32, '0');
-            cevir = "";
+            textBox4.Text += yazikalan.ToString();
+            string cevir = "";
             for (int a = 0; a < textBox4.Text.Length; a++)
             {
                 cevir = textBox4.Text.Substring(a, 1) + cevir;
